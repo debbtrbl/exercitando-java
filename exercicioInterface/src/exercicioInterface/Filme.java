@@ -29,7 +29,7 @@ public class Filme implements Reproduzivel, Favoritavel, Compartilhavel {
 
 	@Override
 	public void favoritar() {
-		System.out.println("Filme " + this.getTitulo() + "adicionado aos favoritos");
+		System.out.println("Filme " + this.getTitulo() + " adicionado aos favoritos");
 		
 	}
 
