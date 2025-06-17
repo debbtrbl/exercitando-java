@@ -17,7 +17,7 @@ public class Serie implements Reproduzivel, Favoritavel {
 	
 	@Override
 	public void favoritar() {
-		System.out.println("Serie " + this.getTitulo() + "adicionado aos favoritos");
+		System.out.println("Serie " + this.getTitulo() + " adicionado aos favoritos");
 		
 	}
 
